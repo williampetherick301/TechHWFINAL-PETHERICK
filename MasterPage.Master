@@ -12,7 +12,7 @@
 <body>
     <form id="form1" runat="server">
         <div style="background-color:darkred;">
-            <h1 style="color:white; text-align:center;text-shadow:1px 1px 2px black;">Philadelphia Pet Pharmacy</h1>
+            <h1 style="color:white; text-align:center;text-shadow:1px 1px 2px black;">Philadelphia's Pet Pharmacy</h1>
             <div style="display:flex;flex-direction:row;justify-content:space-around;width:100%;">
                 <div class="nav nav-pills" style="text-shadow:1px 1px 2px black;">
                     <a class="nav-item nav-link" href="Default.aspx">Home</a>
