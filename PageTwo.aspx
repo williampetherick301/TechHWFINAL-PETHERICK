@@ -2,7 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p style="text-align:center;"></p>
     <div class="card">
         <img src="images/CounterPharm.PNG" alt="N/A" class="card-img">
         <div class="card-img-overlay">
@@ -18,7 +17,7 @@
                 <option value="allergyMedication">Allergy Medication</option>
             </select>
 
-            <button type="button" class="btn btn-success">Request from Stockroom</button>
+            <button class="btn btn-success">Request from Stockroom</button>
         </div>
     </div>
 </asp:Content>

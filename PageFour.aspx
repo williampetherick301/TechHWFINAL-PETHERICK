@@ -2,7 +2,6 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <p style="text-align:center;"></p>
     <div class="card">
         <img src="images/ShippingDepot.PNG" alt="N/A" class="card-img">
         <div class="card-img-overlay">
@@ -14,11 +13,11 @@
             <input type="text" class="form-control" id="clientAddress" placeholder="Enter cilent address">
             <label for="order">Order:</label>
             <input type="text" class="form-control" id="order" placeholder="Enter order details">
-            <label for="clientAddress">Name:</label>
+            <label for="name">Name:</label>
             <input type="text" class="form-control" id="name" placeholder="Enter cilent name">
         </div>
-            <button type="button" class="btn btn-success">Approve Shipping Order</button>
-            <button type="button" class="btn btn-danger">Clear</button>
+            <button class="btn btn-success">Approve Shipping Order</button>
+            <button class="btn btn-danger">Clear</button>
         </div>
     </div>
 </asp:Content>
