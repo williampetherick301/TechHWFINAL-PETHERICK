@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="TechHW4.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link rel="stylesheet" href="~/css/bootstrap.min.css">
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div style="background-color:darkred;">
+            <h1 style="color:white; text-align:center;text-shadow:1px 1px 2px black;">Philadelphia Pet Pharmacy</h1>
+            <div style="display:flex;flex-direction:row;justify-content:space-around;width:100%;">
+                <div class="nav nav-pills" style="text-shadow:1px 1px 2px black;">
+                    <a class="nav-item nav-link" href="Default.aspx">Home</a>
+                    <a class="nav-item nav-link" href="PageTwo.aspx">Prescription Request Counter</a>
+                    <a class="nav-item nav-link" href="PageThree.aspx">Medicine Stock Room</a>
+                    <a class="nav-item nav-link" href="PageFour.aspx">Medicine Processing/Delivery Depot</a>
+                </div>
+            </div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
